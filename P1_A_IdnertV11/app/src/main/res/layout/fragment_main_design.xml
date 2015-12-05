@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.idnert.ekonomiappen.MainDesign"
+    android:weightSum="1">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:gravity="top">
+
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edSaveName"
+            android:inputType="text"
+            android:hint="Fyll i ditt namn!" />
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/incomeLI"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:textColor="#FF00FF"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                android:layout_marginTop="20sp"
+                android:id="@+id/tvIncome" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/showTotalIncome"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginTop="10sp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monthUtgifter"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:textColor="#FF00FF"
+                android:textStyle="normal"
+                android:textAlignment="center"
+                android:layout_marginTop="20sp"
+                android:id="@+id/textView2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/showTotalExpences"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginTop="10sp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="se utgifter"
+                android:id="@+id/btnListExpences" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="se Inkomster"
+                android:id="@+id/btnBudgetList" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lägg till inkomst"
+                android:id="@+id/btnIncome" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lägg till en kostnad"
+                android:id="@+id/btnInsertExpences" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="521dp"
+        android:layout_weight="1.69"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spara Namn"
+            android:id="@+id/btnSaveName"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:layout_weight="0.11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:id="@+id/btnViewName"
+            android:layout_weight="0.00" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

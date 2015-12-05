@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">EkonomiAppen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="back">to the main menu</string>
+
+    //Fragment: ShowBudget
+    <string name="enterBudget">Budget för denna månad: </string>
+    <string name="income1">Lön: </string>
+    <string name="income2">Övrig inkomst: </string>
+    <string name="month">Månad: </string>
+    <string name="btnIncome">Spar! </string>
+
+    //Fragment: InputCost
+    <string name="title">Rubrik: </string>
+    <string name="price">Price: </string>
+    <string name="category">Kategori: </string>
+    <string name="date">Datum:år-månad-dag </string>
+    <string name="title_activity_enter_name">EnterName</string>
+    <string name="userName">Name</string>
+    <string name="title_activity_new_main">NewMainActivity</string>
+    <string name="inPutExpencens">Lägg till utgift här:</string>
+    <string name="inPutDate">20150915</string>
+
+    //Checkbox Category
+    <string name="food">Livsmedel</string>
+    <string name="activitys">Fritid</string>
+    <string name="travelling">Resor</string>
+    <string name="living">Boende</string>
+    <string name="remaining">Övrigt</string>
+    <string name="btnBack">Meny</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="income">Belopp:</string>
+    <string name="title_activity_list_of_expences">ListOfExpences</string>
+    <string name="monthBudget">Kvar att leva på:</string>
+    <string name="monthUtgifter">Utgifter:</string>
+    <string name="monyLeft">Pengar kvar denna månad:</string>
+    <string name="chooseIncome">Skriv in om det är Lön eller Övrigt:</string>
+    <string name="chooseTitle">Skriv in vilken title inkomesten har:</string>
+    <string name="title_activity_name">name</string>
+    <string name="title_activity_income__list">Income_List</string>
+    <string name="title_activity_new__income_list">New_IncomeList</string>
+    <string name="incomeHeader">Inkomster</string>
+    <string name="dateLi">Datum:</string>
+    <string name="incomeLI">Inkomst:</string>
+</resources>
